@@ -2,5 +2,5 @@ matplotlib==3.4.2
 streamlit==0.82.0
 numpy==1.19.4
 pandas==1.2.4
-pickle==0.7.5
-sklearn==0.24.2
+pickleshare==0.7.5
+scikit-learn==0.24.2
