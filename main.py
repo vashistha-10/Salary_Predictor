@@ -34,7 +34,7 @@ def clean_Edu(x):
         return "Post grad"
     return "Less than a Bachelors"
 
-data = pd.read_csv("https://drive.google.com/file/d/1KnR6JvJVu6ho6PsRVIBqjTNuEraSM14d/view?usp=sharing")
+data = pd.read_csv("survey_results_public.rar/survey_results_public.csv")
 
 data = data[["Country","EdLevel","YearsCodePro","Employment","ConvertedComp"]] # taking only 5 columns
 
